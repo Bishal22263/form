@@ -4,10 +4,10 @@ $validation_failed = false;
 $success_message = "";
 
 if (isset($_POST['submit'])) {
-    $name = $_POST['name'] ?? '';
-    $email = $_POST['email'] ?? '';
-    $pass = $_POST['password'] ?? '';
-    $cpass = $_POST['confirm_password'] ?? '';
+    $name = $_POST['name'] ;
+    $email = $_POST['email'];
+    $pass = $_POST['password'];
+    $cpass = $_POST['confirm_password'];
 
     // Validation
     if ($name == "") {

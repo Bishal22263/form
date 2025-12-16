@@ -1,1 +1,17 @@
-[]
+[
+    {
+        "name": "Bishal_Dhital",
+        "email": "bishaldhital71@gmail.com",
+        "password": "$2y$10$6LAtnUDqZxtxsJ8OGyJQjuhrswTj70\/SjmUySGamWK5T6lZ7BX4h."
+    },
+    {
+        "name": "lebina",
+        "email": "NP03CS4A240209@heraldcollege.edu.np",
+        "password": "$2y$10$3Xtyq3.WzaH\/pe0vJpiMlORBDXqH6yQqhYmUZbQPx41arCB3vOoRO"
+    },
+    {
+        "name": "Ishwor Dhital",
+        "email": "hello@gmail.com",
+        "password": "$2y$10$m.VYx\/gz2uTwCeZMe9sFKO1ZtAgtLJ1w4x\/SWPlz4jw.upjE\/NbLW"
+    }
+]
