@@ -23,7 +23,7 @@ if (isset($_POST['submit'])) {
         $validation_failed = true;
     }
     if (strlen($pass) < 8) {
-        echo "<p style='color:red;'>Password must be 8+ characters</p>"; // Fixed: changed 6+ to 8+ to match your condition
+        echo "<p style='color:red;'>Password must be 8+ characters</p>"; 
         $validation_failed = true;
     }
     if (!preg_match('/[!@#$%^&*(),.?":{}|<>]/', $pass)) {
@@ -35,7 +35,7 @@ if (isset($_POST['submit'])) {
         $validation_failed = true;
     }
 
-    // Check if email already exists (added this validation)
+    // Check if email already exists
     if ($email != "" && filter_var($email, FILTER_VALIDATE_EMAIL)) {
         $users = file_exists("users.json")
             ? json_decode(file_get_contents("users.json"), true)
@@ -70,8 +70,8 @@ if (isset($_POST['submit'])) {
         // Show success message
         $success_message = "<div style='color:green; font-weight:bold; margin:15px 0; text-align:center;'>Registration Successful!</div>";
 
-        // Clear the form after success
-        $name = $email = $pass = $cpass = "";
+       
+       
     }
 }
 ?>
@@ -93,16 +93,16 @@ if (isset($_POST['submit'])) {
 
     <form method="post">
         Name:<br>
-        <input type="text" name="name" value="<?php echo htmlspecialchars($name); ?>" required /><br><br>
+        <input type="text" name="name" value="<?php echo htmlspecialchars($name); ?>" /><br><br>
 
         Email:<br>
-        <input type="email" name="email" value="<?php echo htmlspecialchars($email); ?>" required /><br><br>
+        <input type="email" name="email" value="<?php echo htmlspecialchars($email); ?>"/><br><br>
 
         Password:<br>
-        <input type="password" name="password" required /><br><br>
+        <input type="password" name="password"/><br><br>
 
         Confirm Password:<br>
-        <input type="password" name="confirm_password" required /><br><br>
+        <input type="password" name="confirm_password"/><br><br>
 
         <button type="submit" name="submit">Submit</button>
     </form>

@@ -13,5 +13,15 @@
         "name": "Ishwor Dhital",
         "email": "hello@gmail.com",
         "password": "$2y$10$m.VYx\/gz2uTwCeZMe9sFKO1ZtAgtLJ1w4x\/SWPlz4jw.upjE\/NbLW"
+    },
+    {
+        "name": "hari",
+        "email": "hy@gmail.com",
+        "password": "$2y$10$mU6\/ywOZLdMg5M7KJ09VKuQDiiQ8b8Ql0i8TeUuj8Nx6b1Q2093kG"
+    },
+    {
+        "name": "sailesh",
+        "email": "hello123@gmail.com",
+        "password": "$2y$10$TC6KEgRZ.k0R9MqkfcfBjub0iojn2E2iQgZNGk7.YpJvrDrBaZrLy"
     }
 ]
